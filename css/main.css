@@ -53,3 +53,73 @@ div.nav-wrapper a.brand-logo img {
     padding-left: 2.5em;
     padding-right: 2.5em;
 }
+
+#img-container div.row div.col.s10 div.card-panel.amber.accent-4 {
+    border: 1px solid purple;
+    padding-top: 4em;
+    padding-bottom: 3em;
+    position: relative;
+    top: 7em;
+}
+
+#img-container div.row div.col.s10 div.card-panel.amber.accent-4 > h3 {
+  display: inline;
+}
+
+#img-container div.row div.col.s10 div.card-panel.amber.accent-4 > img {
+    height: 1.5em;
+    position: relative;
+    left: 2em;
+}
+
+#img-container div.row div.col.s10 div.card-panel.amber.accent-4 > a {
+    border-radius: 10px;
+    box-shadow: none;
+    color: black;
+    font-weight: bolder;
+    position: relative;
+    top: 2em;
+    margin-left: 0;
+    padding: 7px 19px;
+    min-height: 46px; 
+}
+
+/* App Container */
+#app-container {
+    box-sizing: border-box;
+    padding: 2.5em 0;
+    max-height: 45em;
+}
+
+#app-container div.row {
+    margin: 0;
+}
+
+#app-container div.row div.col.s10 div.row:last-of-type {
+    border: 1px solid white;
+    box-sizing: border-box;
+    border-left: none;
+    padding-top: 1em;
+    padding-bottom: 2.5em;
+}
+
+#app-container div.row div.col.s10 div.row > img {
+    width: 33%;
+    position: relative;
+    top: 1em;
+}
+
+#app-container div.row div.col.s10 div.row div.col.s6 div.row {
+    border: none;
+}
+
+#app-container div.row div.col.s10 div.row div.col.s6 div.row > h4 {
+    margin-left: 0;
+}
+
+#app-container div.row div.col.s10 div.row div.col.s6 div.row > p {
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 0;
+    padding: 1em .5em;
+}

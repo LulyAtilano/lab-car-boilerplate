@@ -1,1 +1,55 @@
-/* Los estilos de tu proyecto */
+/*  Header */
+nav {
+    border: none;
+    box-shadow: none;
+    height: 7em;
+    padding: 1.5em;
+}
+
+nav ul a { 
+   color: black;
+}
+
+div.nav-wrapper a.brand-logo img {
+    position: relative;
+    left: .5em;
+}
+
+/* Container image */
+#img-container {
+    background-image: url(../assets/images/taxi.jpg);
+    background-size: cover;
+    box-shadow: none;
+    height: 30em;
+}
+
+#img-container div.row div.col.s4 div.card-panel.amber.accent-4 {
+    position: relative;
+    top: 5em;
+}
+
+#img-container div.row div.col.s4 div.card-panel.amber.accent-4 > img {
+    height: 1em;
+}
+
+#img-container div.row div.col.s4 div.card-panel.amber.accent-4 > a {
+    border-radius: 10px;
+    box-shadow: none;
+    color: black;
+    font-weight: bolder;
+    margin: 1em;
+}
+
+#img-container div.row div.col.s4 div.card-panel.amber.accent-4 > hr {
+    border: 1px solid white;
+    position: relative;
+    display: inline-block;
+    font-weight: lighter;
+    width: 7em;
+}
+
+#img-container div.row div.col.s4 div.card-panel.amber.accent-4 > span:last-of-type {
+    /*border: 1px solid purple;*/
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+}

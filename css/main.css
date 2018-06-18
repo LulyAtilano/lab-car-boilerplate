@@ -17,6 +17,18 @@ div.nav-wrapper a.brand-logo img {
     left: .5em;
 }
 
+nav div.nav-wrapper ul#nav.mobile li > a.btn {
+    margin: 0;
+    border: 1px solid red;
+}
+
+.btn {
+    font-family: inherit;
+    font-size: 1rem;
+    box-shadow: none;
+    text-transform: none;
+}
+
 /* Container image */
 #img-container {
     background-image: url(../assets/images/taxi.jpg);
@@ -29,6 +41,10 @@ div.nav-wrapper a.brand-logo img {
     position: relative;
     top: 5em;
 }
+
+#img-container div.row div.col.l5 div.card-panel.amber.accent-4 > h5 {
+    font-size: 2em;
+} 
 
 #img-container div.row div.col.l5 div.card-panel.amber.accent-4 > img {
     height: 1em;
@@ -107,7 +123,6 @@ div.nav-wrapper a.brand-logo img {
     padding: 5em 1.5em 3em 1.5em;
     z-index: 10;
     height: 20em;
-    border: 1px solid white;
 }
 
 #service-container div.col.l4 > h6 {
@@ -195,6 +210,7 @@ div.nav-wrapper a.brand-logo img {
     padding: 5%;
     border: 1px solid white;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* Footer */

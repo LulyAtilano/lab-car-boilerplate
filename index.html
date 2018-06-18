@@ -27,7 +27,7 @@
         <!-- Container Image -->
         <div id="img-container" class="col s12 l12">
             <div class="row hide-on-med-and-down">
-                <div class="col s4 offset-s8">
+                <div class="col l5 offset-l7">
                     <div class="card-panel amber accent-4">
                         <h5 class="white-text"> Disfruta del viaje <br> Eres dueño de tu tiempo </h5>
                         <br>
@@ -42,10 +42,10 @@
                 </div>
             </div>
             <div class="row hide-on-large-only">
-                <div class="col s10 offset-s2">
+                <div class="col s9 offset-s3">
                     <div class="card-panel amber accent-4">
-                        <h3 class="white-text s10 offset-s2"> Comienza a viajar <br> con</h3>
-                        <img class="s2" src="assets/images/logoBlanco.png" alt="logo labcar blanco">
+                        <h3 class="white-text s10"> Comienza a viajar con <img class="s1" src="assets/images/logoBlanco.png" alt="logo labcar blanco"></h3>
+                        
                         <br>
                         <a class="waves-effect waves btn grey lighten-5 black-text"> Descarga el app </a>
                     </div>
@@ -77,32 +77,51 @@
                             </div>
                         </div>
                     </div>
-                    <p class="col s12 white-text"> Llega a tu destino aún más rápido </p>
+                    <p class="col s12 white-text hide-on-large-only"> Llega a tu destino aún más rápido </p>
                 </div>
             </div>
         </div>
         <!-- Container service-->
         <div id="service-container" class="row">
-            <!-- <img class="responsive-img card-image" src="assets/images/conduce.jpg"> -->
-            <div class="col l4 s12 right opaque">
+            <div class="col l4 s12 right">
                 <h6 class="white-text col l12 s12"> Conduce cuando quieras </h6>
                 <p class="white-text col l12 hide-on-med-and-down"> LabCar es una opción flexible para alcanzar <br> tus metas financieras </p>
-                <p class="white-text col s12 hide-on-large-only"> LabCar es una opción flexible para alcanzar tus metas <br> financieras </p>
+                <p class="white-text col s12 hide-on-large-only"> LabCar es una opción flexible para alcanzar tus metas financieras </p>
                 <a class=" btn amber col accent-4 white-text"> Conviértete en conductor </a>
             </div>
         </div>
         <!-- Container trip -->
         <div id="trip-container" class="row amber accent-4 white-text">
-            <div class="col s6">
-                <h5> Tarifas </h5>
-                <span> Consulta las tarifas LabCar aquí </span>
-                <img src="assets/images/shape.png" alt="icono punto">
-
-                <img src="assets/images/shape2.png" alt="icono avión">
-                <a class="waves-effect waves btn grey lighten-5 black-text"> ¡Trazar ruta! </a>
+            <div class="col s12 l6">
+                <div class="row white-text">
+                    <div class="col l10 push-l1 s12"> 
+                        <h5> Tarifas </h5>
+                        <span> Consulta las tarifas LabCar aquí </span>
+                        <div class="row white-text">
+                            <img class="s1"src="assets/images/shape.png" alt="icono punto">
+                            <div class="input-field col s11 offset-s1">
+                                <input placeholder="Punto de destino" id="first_name" type="text" class="validate white-text">
+                                <label for="first_name">  </label>
+                            </div>
+                        </div>
+                        <div class="row white-text">
+                            <img class="s1" src="assets/images/shape2.png" alt="icono avión">
+                            <div class="input-field col s11 offset-s1">
+                                <input placeholder="Punto de salida" id="last_name" type="text" class="validate white-text">
+                                <label for="last_name"> </label>
+                            </div>
+                        </div>
+                        <a class="waves-effect waves btn grey lighten-5 black-text"> ¡Trazar ruta! </a>
+                    </div>
+                </div>
             </div>
-            <div class="col s6">
-                <img src="" alt="">
+            <div id="trip-map" class="col s12 l6">
+                <div class="row">
+                    <div class="l6 offset-l3 s10 offset-s1">
+                        <img src="assets/images/map-1.jpg" alt="map 1" class="col l8 offset-l2 hide-on-med-and-down">
+                        <img src="assets/images/map-2.jpg" alt="map 2" class="col s10 offset-s1 hide-on-large-only">
+                    </div>
+                </div>
             </div>
         </div>
         <!-- Footer -->

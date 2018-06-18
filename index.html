@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title> LAB-CAR ~ Luly </title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
         <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
@@ -20,7 +21,7 @@
                 <ul id="nav-mobile" class="right hide-on-med-and-down black-text">
                     <li><a href="#trip-container" class="black-text"> Viaja </a></li>
                     <li><a href="#service-container" class="black-text"> Conduce </a></li>
-                    <li><a href="modal1" class="black-text btn modal-trigger white" data-target="modal1"> Inicia sesión </a></li>
+                    <li><a href="#modal1" class="black-text btn modal-trigger white" data-target="modal1"> Inicia sesión </a></li>
                 </ul>
             </div>
         </nav>
@@ -33,7 +34,7 @@
                         <br>
                         <span class="white-text"> Viaja con  </span> <img src="assets/images/logoBlanco.png" alt="logo labcar blanco">
                         <br>
-                        <a class="waves-effect waves btn grey lighten-5 black-text"> Regístrate </a>
+                        <a href="#modal2" class="waves-effect waves btn grey lighten-5 black-text modal-trigger " data-target="modal2" > Regístrate </a>
                         <br>
                         <hr> <span class="white-text"> O bien </span> <hr>
                         <br>
@@ -174,19 +175,125 @@
                 </div>
             </div>
         </footer>
-
-          <!-- Modal Structure -->
-        <div id="modal1" class="modal">
-            <div class="modal-content">
-                <h4>Modal Header</h4>
-                <p>A bunch of text</p>
-            </div>
-            <div class="modal-footer">
-                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+      
+        <!-- Modal Structure -->
+        <!-- Modal 1 -->
+        <div class="container">
+            <div class="row">
+                <div id="modal1" class="modal cyan darken-2">
+                    <div id="pic-user-login" class="modal-content">
+                        <i class="large material-icons prefix white">account_circle</i>
+                        <span class="modal-close"> &times; </span>
+                    </div>
+                    <div class="modal-content">
+                        <div class="row">
+                            <form class="col s6 push-s3 grey lighten-4">
+                                <div class="row">
+                                    <div class="input-field col s10 push-s1">
+                                        <i class="material-icons prefix">account_circle</i>
+                                        <input id="icon_account_circle" type="text" class="validate">
+                                        <label for="icon_account_circle"> Username </label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s10 push-s1">
+                                        <i class="material-icons prefix">enhanced_encryption</i>
+                                        <input id="icon_telephone" type="tel" class="validate">
+                                        <label for="icon_telephone"> Password </label>
+                                    </div>
+                                </div>
+                                <div class="modal-footer grey lighten-4">
+                                    <a href="#!" class="modal-action modal-close waves-effect orange lighten-1 btn-flat col s6 push-s3 white-text"> LOG IN </a>
+                                    <p class="col s12"> Forgot password? <a href="#"> Click Here </a></p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-      
+        <!-- Modal 2 -->
+        <div class="container">
+            <div class="row">
+                <div id="modal2" class="modal grey darken-1">
+                    <a href="#" class="modal-action modal-close waves-effect btn-flat col s10 push-s1 white-text black"> Ya tienes una cuenta? </a>
+                    <p> O CREA UNA CUENTA NUEVA </p>
+                    <div class="modal-content">
+                        <div class="row">
+                            <form class="col s10 push-s1 grey lighten-4">
+                                <div class="row">
+                                    <div class="col s5 push-s1">
+                                        <div class="row">
+                                            <div class="input-field col s12 white">
+                                                <input type="text" id="autocomplete-input" class="autocomplete">
+                                                <label for="autocomplete-input"> Nombre </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col s5">
+                                        <div class="row">
+                                            <div class="input-field col s12 white">
+                                                <input type="text" id="autocomplete-input" class="autocomplete">
+                                                <label for="autocomplete-input"> Apellido </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12">
+                                        <div class="input-field col s10 push-s1 white">
+                                            <input type="text" id="autocomplete-input" class="autocomplete">
+                                            <label for="autocomplete-input"> Correo Electrónico </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12">
+                                        <div class="input-field col s10 push-s1 white">
+                                            <input type="text" id="autocomplete-input" class="autocomplete">
+                                            <label for="autocomplete-input"> Teléfono </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12">
+                                        <div class="input-field col s10 push-s1 white">
+                                            <input type="text" id="autocomplete-input" class="autocomplete">
+                                            <label for="autocomplete-input"> Contraseña </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12">
+                                        <div class="input-field col s10 push-s1 white">
+                                            <input type="text" id="autocomplete-input" class="autocomplete">
+                                            <label for="autocomplete-input"> Ciudad </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12">
+                                        <div class="input-field col s10 push-s1 white">
+                                            <input type="text" id="autocomplete-input" class="autocomplete">
+                                            <label for="autocomplete-input"> (Opcional) Código de invitación </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="modal-footer grey lighten-4">
+                        <a href="#!" class="modal-action modal-close waves-effect grey lighten-5 btn-flat col s10 push-s1"> Como te enteraste de nosotros? <i class="material-icons">favorite</i> </a>
+                        <a href="#!" class="modal-action modal-close waves-effect light-blue lighten-2 btn-flat col s10 push-s1 white-text"> ENVIAR </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
         <script src="js/app.js"></script>
+        </script>
+
     </body>
 </html>

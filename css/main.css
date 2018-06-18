@@ -33,8 +33,9 @@ nav div.nav-wrapper ul#nav.mobile li > a.btn {
 #img-container {
     background-image: url(../assets/images/taxi.jpg);
     background-size: cover;
+    background-position: bottom;
     box-shadow: none;
-    height: 30em;
+    height: 45em;
 }
 
 #img-container div.row div.col.l5 div.card-panel.amber.accent-4 {
@@ -399,4 +400,40 @@ footer.page-footer div.container div.row div.col.l3 ul li {
         width: 95%;
     }
 
+}
+
+/* MODALS */ 
+
+.modal {
+    max-height: 90%;
+    width: 55%;
+}
+
+/* Modal 1*/ 
+div.container div.row div#modal1 div#pic-user-login {
+    max-height: 178px;
+    padding-bottom: 0;
+}
+
+div.container div.row div#modal1 div#pic-user-login > i {
+    font-size: 5em;
+    left: 33%;
+    position: relative;
+}
+
+div.container div.row div#modal1 div.modal-content div.row {
+    border-top: 1px solid white;
+    padding-top: 20px;
+}
+
+div.container div.row div#modal1 div.modal-content div.row form.col.s12 div.row {
+    margin: 0;
+}
+
+div.container div.row div#modal1 div.modal-content div.row form.col.s6 div.modal-footer a {
+    text-align: center;
+}
+
+div.container div.row div#modal1 div.modal-content div.row form.col.s6 div.modal-footer p.col {
+    width: auto;
 }

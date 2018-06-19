@@ -37,6 +37,11 @@ nav div.nav-wrapper ul#nav.mobile li > a.btn {
     height: 45em;
 }
 
+#img-container div.row div.col.l5 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 #img-container div.row div.col.l5 div.card-panel.amber.accent-4 {
     position: relative;
     top: 5em;
@@ -68,6 +73,18 @@ nav div.nav-wrapper ul#nav.mobile li > a.btn {
 #img-container div.row div.col.l5 div.card-panel.amber.accent-4 > span {
     font-size: 1.2em;
 }
+
+#img-container div.row.hide-on-med-and-down {
+    margin-right: 0;
+}
+
+#img-container div.row.hide-on-large-only {
+    margin-right: 0;
+}
+
+#img-container div.row.hide-on-large-only div.col.s9 {
+    padding-right: 0;
+} 
 
 /* App Container */
 #app-container {
@@ -317,7 +334,9 @@ footer.page-footer div.container div.row div.col.l3 ul li {
     #app-container div.row div.col.l10 div.row:last-of-type {
         border: 1px solid white;
         box-sizing: border-box;
+        left: 8.33%;
         padding: 10px;
+        position: relative;
     }
     
     #app-container div.row div.col.s10 div.row > h6.col.s12 {
@@ -327,9 +346,8 @@ footer.page-footer div.container div.row div.col.l3 ul li {
     }
 
     #app-container div.row div.col.s10 div.row > img {
-        max-height: 90vh;
-        width: 100%;
-        margin-left: 0;
+        max-height: 60vh;
+        width: 90%;
     }
 
     #app-container div.row div.col.s10 > p {

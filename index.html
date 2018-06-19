@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title> LAB-CAR ~ Luly </title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
@@ -119,8 +120,9 @@
             <div id="trip-map" class="col s12 l6">
                 <div class="row">
                     <div class="l6 offset-l3 s10 offset-s1">
-                        <img src="assets/images/map-1.jpg" alt="map 1" class="col l8 offset-l2 hide-on-med-and-down">
-                        <img src="assets/images/map-2.jpg" alt="map 2" class="col s10 offset-s1 hide-on-large-only">
+                        <div id="map"></div>
+                        <!--<img src="assets/images/map-1.jpg" alt="map 1" class="col l8 offset-l2 hide-on-med-and-down">
+                        <img src="assets/images/map-2.jpg" alt="map 2" class="col s10 offset-s1 hide-on-large-only">-->
                     </div>
                 </div>
             </div>
@@ -376,6 +378,7 @@
 
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXfmbMjZjUdRC6zklKqaqZ6Pb4YB2WDV8&callback=initMap"></script>
         <script src="js/app.js"></script>
         </script>
 

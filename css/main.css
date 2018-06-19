@@ -416,10 +416,14 @@ div.container div.row div#modal1 div#pic-user-login {
 }
 
 div.container div.row div#modal1 div#pic-user-login > i {
-    font-size: 5em;
-    left: 33%;
+    font-size: 8em;
+    left: 40%;
     position: relative;
 }
+
+div.container div.row div#modal1 div#pic-user-login > span {
+    font-size: 3em;
+} 
 
 div.container div.row div#modal1 div.modal-content div.row {
     border-top: 1px solid white;
@@ -430,10 +434,70 @@ div.container div.row div#modal1 div.modal-content div.row form.col.s12 div.row 
     margin: 0;
 }
 
-div.container div.row div#modal1 div.modal-content div.row form.col.s6 div.modal-footer a {
-    text-align: center;
-}
-
 div.container div.row div#modal1 div.modal-content div.row form.col.s6 div.modal-footer p.col {
     width: auto;
+}
+
+
+/* Modal 2 */
+div.container div.row div#modal2 div.row {
+    margin-left: 11px;
+}
+
+div.container div.row div#modal2 div.row div.col p {
+    margin: 0;
+    padding: 11px;
+}
+
+div.container div.row div#modal2 div.row div.col > span {
+    font-size: 3em;
+}
+
+div.container div.row div#modal2 div.row {
+    margin-bottom: 0;
+}
+
+div.container div.row div#modal2 div.modal-content {
+    padding: 0;
+}
+
+div.container div.row div#modal2 div.modal-content div.row form {
+    padding: 0;
+}
+
+div.container div.row div#modal2 div.modal-content div.row form div.row {
+    margin: 0;
+}
+
+div.container div.row div#modal2 div.modal-content div.row form div.row > div.col.s12 {
+    padding: 0;
+    margin-top: 0;
+}
+
+div.container div.row div#modal2 div.modal-content div.row form.col.s10 div.row div.col.s6 {
+    left: 0;
+    padding: 0;
+}
+
+div.container div.row div#modal2 div.modal-content div.row form.col.s10 div.row div.col.s6:first-of-type {
+    padding-right: 10px;
+}
+
+div.container div.row div#modal2 div.modal-content div.row form.col.s10 div.row div.col.s12 div.input-field {
+    padding: 0;
+    margin-bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+div.container div.row div#modal2 div.modal-content div.row form.col.s10 input {
+    margin-bottom: 0;
+    border-bottom: none;
+}
+
+div.container div.row div#modal2 div.modal-content div.row form div.row div.col.s12 div.input > input {
+    left: 0;
+    margin-top: 0;
+    padding: 0;
+    width: 100%;
 }

@@ -34,11 +34,11 @@
                         <br>
                         <span class="white-text"> Viaja con  </span> <img src="assets/images/logoBlanco.png" alt="logo labcar blanco">
                         <br>
-                        <a href="#modal2" class="waves-effect waves btn grey lighten-5 black-text modal-trigger " data-target="modal2" > Regístrate </a>
+                        <a href="#modal2" class="waves-effect waves btn grey lighten-5 black-text modal-trigger" data-target="modal2"> Regístrate </a>
                         <br>
                         <hr> <span class="white-text"> O bien </span> <hr>
                         <br>
-                        <a class="waves-effect waves btn grey lighten-5 black-text"> Conviertete en un conductor </a>
+                        <a href="#modal3" class="waves-effect waves btn grey lighten-5 black-text modal-trigger" data-target="modal3"> Conviertete en un conductor </a>
                     </div>
                 </div>
             </div>
@@ -58,8 +58,8 @@
             <div class="row">
                 <div class="col l10 s10 offset-s1 white-text">
                     <div class="row">
-                        <h6 class="col s6 offset-s3 hide-on-large-only"> La nueva app </h6>
-                        <img class="col l3 offset-l1 s12" src="assets/images/iPhone6Plus.png" alt="foto iphone">
+                        <h6 class="col s12 hide-on-large-only center-align"> La nueva app </h6>
+                        <img class="col l3 offset-l1 s10 offset-s1" src="assets/images/iPhone6Plus.png" alt="foto iphone">
                         <div class="col l6 offset-l1">
                             <div class="row">
                                 <h4 class="col l10 offset-l2 hide-on-med-and-down"> Descarga la nueva app </h4>
@@ -183,7 +183,7 @@
                 <div id="modal1" class="modal cyan darken-2">
                     <div id="pic-user-login" class="modal-content">
                         <i class="large material-icons prefix white-text">account_circle</i>
-                        <span class="modal-close right white"> &times; </span>
+                        <span class="modal-close right white-text"> &times; </span>
                     </div>
                     <div class="modal-content">
                         <div class="row">
@@ -248,7 +248,7 @@
                                     <div class="col s12">
                                         <div class="input-field col s10 push-s1 white">
                                             <input type="text" id="autocomplete-input" class="autocomplete">
-                                            <label for="autocomplete-input"> Correo Electrónico ejemplo@correo.mx </label>
+                                            <label for="autocomplete-input"> Correo Electrónico </label>
                                         </div>
                                     </div>
                                 </div>
@@ -289,6 +289,85 @@
                     </div>
                     <div class="modal-footer grey darken-1">
                         <a href="#!" class="waves-effect grey lighten-4 btn-flat col s10 push-s1 center-align"> Como te enteraste de nosotros?  <i class="material-icons">favorite</i> </a>
+                        <a href="#!" class="waves-effect light-blue lighten-2 btn-flat col s10 push-s1 white-text center-align"> ENVIAR </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 3 -->
+        <div class="container">
+            <div class="row">
+                <div id="modal3" class="modal grey darken-1">
+                    <div class="modal-content">
+                        <span id="icon-close" class="modal-close right white-text"> &times; </span>
+                        <div class="row">
+                            <form class="col s10 push-s1 grey darken-1">
+                                <div class="row">
+                                    <div class="col s12">
+                                        <label class="black-text"> ¿Tienes vehículo de 4 puertas?</label>
+                                        <select class="browser-default">
+                                            <option value="" disabled selected> Selecciona una opción </option>
+                                            <option value="1"> Si </option>
+                                            <option value="2"> No </option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12">
+                                        <label class="black-text"> Marca </label>
+                                        <select class="browser-default">
+                                            <option value="" disabled selected> Elige la marca del vehículo </option>
+                                            <option value="1"> Chevrolet </option>
+                                            <option value="2"> Ford </option>
+                                            <option value="3"> Isuzu </option>
+                                            <option value="4"> Toyota </option>
+                                            <option value="5"> Nissan </option>
+                                            <option value="6"> Honda </option>
+                                            <option value="7"> Infinity </option>
+                                            <option value="8"> Kia </option>
+                                            <option value="9"> Hyundai </option>
+                                        </select>
+                                        <span> ¿No ves tu vehículo en la lista? Envía un correo electrónico a </span>
+                                        <a href="#"> sociosmdv@labcar.com </a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12">
+                                        <label class="black-text"> Modelo </label>
+                                        <select class="browser-default">
+                                            <option value="" disabled selected> Selecciona una opción </option>
+                                            <option value="1"> Modelo 1 </option>
+                                            <option value="2"> Modelo 2 </option>
+                                            <option value="3"> Modelo 3 </option>
+                                            <option value="4"> Modelo 4 </option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12">
+                                        <label class="black-text"> Año </label>
+                                        <select class="browser-default">
+                                            <option value="" disabled selected> Selecciona una opción </option>
+                                            <option value="1"> 2018 </option>
+                                            <option value="2"> 2017 </option>
+                                            <option value="3"> 2016 </option>
+                                            <option value="4"> 2015 </option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12">
+                                            <label class="black-text"> Número de la matrícula </label>
+                                        <div class="input-field col s12 grey lighten-3">
+                                            <input type="text" id="autocomplete-input" class="autocomplete" placeholder="Número de la matrícula">
+                                        </div>
+                                    </div>
+                                </div>
+                                <span> La información de la matrícula ayuda a los clientes a identificar tu vehículo </span>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="modal-footer grey darken-1">
                         <a href="#!" class="waves-effect light-blue lighten-2 btn-flat col s10 push-s1 white-text center-align"> ENVIAR </a>
                     </div>
                 </div>

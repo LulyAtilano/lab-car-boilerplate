@@ -2,6 +2,8 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
+    background-color:rgb(38, 50, 56);
+    color: none;
 }
 
 /*  Header */
@@ -388,6 +390,7 @@ footer.page-footer div.container div.row div.col.l3 ul li {
 
     #trip-container div#trip-map div.row {
         margin: 0;
+        min-height: auto;
     } 
     
     #trip-container div#trip-map div.row div.l6 {

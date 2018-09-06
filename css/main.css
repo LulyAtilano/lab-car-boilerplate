@@ -233,6 +233,10 @@ nav div.nav-wrapper ul#nav.mobile li > a.btn {
 
 #trip-container div#trip-map div.row div.l6 > div#map {
     border: 1px solid white;
+    max-height: 30em;
+    min-height: 13.5em;
+    height: 100%;
+    padding: 15px;
 }
 
 /* Footer */
